@@ -28,9 +28,9 @@ Electrically operated switch
 
 The relay is an electronic switch.
 
-When the `IN` pin is high / disconnected, `COM` is connected to `NC` (NC means normally closed).
+When the `IN` pin is low / disconnected, `COM` is connected to `NC` (NC means normally closed).
 
-When the `IN` pin is low, `COM` is connected to `NO` (NO means normally open).
+When the `IN` pin is high, `COM` is connected to `NO` (NO means normally open).
 
 Setting the "transistor" attribute to "pnp" inverts the logic: when `IN` is high, `COM` is connected to `NO`, and when `IN` is low / disconnected, `COM` is connected to `NC`.
 
